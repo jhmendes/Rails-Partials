@@ -1,0 +1,10 @@
+
+
+<% if controller.action_name == "index" %>
+  <h4>Event Statistics</h4>
+  <% elsif controller.action_name == "show" %>
+    <h4>About this Event</h4>
+<% end %>
+
+
+<h3><%= controller.action_name %></h3>
